@@ -6,14 +6,14 @@
 <title>Key Psychiatric Disorders: Primary Care Algorithms</title>
 <meta name="description" content="Quick primary-care algorithms for depression, anxiety and psychosis. For healthcare professionals.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://aurobindo-livid.vercel.app/">
+<meta property="og:url" content="https://mental-health-day-2026.vercel.app/">
 <meta property="og:title" content="Key Psychiatric Disorders: Primary Care Algorithms">
 <meta property="og:description" content="Depression, anxiety and psychosis, step by step. World Mental Health Day 2026.">
-<meta property="og:image" content="https://aurobindo-livid.vercel.app/og.jpg">
+<meta property="og:image" content="https://mental-health-day-2026.vercel.app/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://aurobindo-livid.vercel.app/og.jpg">
+<meta name="twitter:image" content="https://mental-health-day-2026.vercel.app/og.jpg">
 <style>
 :root{--bg:#f3f7f9;--card:#fff;--ink:#17232d;--mute:#5b6b76;--line:#dbe5ea;--teal:#1b7f8c;--red:#b3261e;--redbg:#fdecea;--amb:#a96a0c;--ambbg:#fff4de;--grn:#2e7d4f;--grnbg:#eaf5ee;--tealbg:#e6f3f5;--h1:#12355b;--h2:#1b7f8c;--nav:rgba(243,247,249,.94);
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -53,6 +53,17 @@ ul{margin:6px 0 0;padding-left:18px}li{margin:3px 0}
 .card{border-radius:18px;padding:16px;margin-bottom:14px}.card h3{margin:0 0 4px;font-size:16px}
 .c-teal{background:var(--tealbg)}.c-teal h3{color:var(--teal)}.c-red{background:var(--redbg)}.c-red h3{color:var(--red)}
 .refs{font-size:12.5px;color:var(--mute);margin-top:6px}.refs ol{padding-left:18px;margin:6px 0}
+/* condition colours */
+#dep{--teal:#2f5fb3;--tealbg:#e9effb}#anx{--teal:#1b7f8c;--tealbg:#e6f3f5}#psy{--teal:#7a4bb5;--tealbg:#f1ebfa}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #dep{--teal:#8fb0f0;--tealbg:#17243d}:root:not([data-theme="light"]) #anx{--teal:#5cc3d1;--tealbg:#12303a}:root:not([data-theme="light"]) #psy{--teal:#c3a3ef;--tealbg:#2a1d3d}}
+:root[data-theme="dark"] #dep{--teal:#8fb0f0;--tealbg:#17243d}:root[data-theme="dark"] #anx{--teal:#5cc3d1;--tealbg:#12303a}:root[data-theme="dark"] #psy{--teal:#c3a3ef;--tealbg:#2a1d3d}
+.dis .step{border-left:5px solid var(--teal)}
+.nav button[data-d="dep"]{--c:#2f5fb3;--cb:#e9effb}.nav button[data-d="anx"]{--c:#1b7f8c;--cb:#e6f3f5}.nav button[data-d="psy"]{--c:#7a4bb5;--cb:#f1ebfa}
+.nav button{border-color:var(--c);background:var(--cb);color:var(--c)}
+.nav button[aria-selected="true"]{background:var(--c);border-color:var(--c);color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .nav button{background:var(--card)}}
+:root[data-theme="dark"] .nav button{background:var(--card)}
+.tn{background:#7a4bb5}
 .foot{font-size:12px;color:var(--mute);border-top:1px solid var(--line);padding-top:12px;margin-top:10px}
 </style>
 </head>
