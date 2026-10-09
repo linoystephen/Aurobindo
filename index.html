@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Key Psychiatric Disorders: Primary Care Algorithms</title>
+<meta name="description" content="Quick primary-care algorithms for depression, anxiety and psychosis. For healthcare professionals.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mental-health-day-2026.vercel.app/">
+<meta property="og:title" content="Key Psychiatric Disorders: Primary Care Algorithms">
+<meta property="og:description" content="Depression, anxiety and psychosis, step by step. World Mental Health Day 2026.">
+<meta property="og:image" content="https://mental-health-day-2026.vercel.app/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://mental-health-day-2026.vercel.app/og.jpg">
+<style>
+:root{--bg:#f3f7f9;--card:#fff;--ink:#17232d;--mute:#5b6b76;--line:#dbe5ea;--teal:#1b7f8c;--red:#b3261e;--redbg:#fdecea;--amb:#a96a0c;--ambbg:#fff4de;--grn:#2e7d4f;--grnbg:#eaf5ee;--tealbg:#e6f3f5;--h1:#12355b;--h2:#1b7f8c;--nav:rgba(243,247,249,.94);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1519;--card:#18222a;--ink:#e8eef2;--mute:#9db0bb;--line:#2a3943;--teal:#5cc3d1;--red:#ff8f87;--redbg:#3a1d1b;--amb:#f0b45a;--ambbg:#3a2b12;--grn:#6fd09a;--grnbg:#14301f;--tealbg:#12303a;--h1:#0c2742;--h2:#14606b;--nav:rgba(14,21,25,.94)}}
+:root[data-theme="dark"]{--bg:#0e1519;--card:#18222a;--ink:#e8eef2;--mute:#9db0bb;--line:#2a3943;--teal:#5cc3d1;--red:#ff8f87;--redbg:#3a1d1b;--amb:#f0b45a;--ambbg:#3a2b12;--grn:#6fd09a;--grnbg:#14301f;--tealbg:#12303a;--h1:#0c2742;--h2:#14606b;--nav:rgba(14,21,25,.94)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:560px;margin:0 auto;padding:0 14px 28px}
+.hero{background:linear-gradient(135deg,var(--h1),var(--h2));color:#fff;margin:0 -14px 0;padding:24px 20px 22px;border-radius:0 0 26px 26px}
+.tag{display:inline-block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,255,255,.18);padding:4px 10px;border-radius:99px}
+h1{font-size:24px;line-height:1.2;margin:12px 0 6px}.hero p{margin:0;opacity:.92;font-size:14.5px}
+.theme{float:right;font:inherit;font-size:12px;background:rgba(255,255,255,.18);color:#fff;border:0;border-radius:99px;padding:5px 10px;min-height:32px;cursor:pointer}
+.alert{background:var(--redbg);color:var(--red);border-radius:14px;padding:10px 14px;margin:14px 0 0;font-size:14px}
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--nav);backdrop-filter:blur(8px);margin:0 -14px;padding:10px 14px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.nav button{font:inherit;font-weight:700;font-size:14px;min-height:48px;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.nav button[aria-selected="true"]{background:var(--teal);color:#fff;border-color:var(--teal)}
+.dis{display:none;padding-top:8px}.dis.on{display:block}
+.step{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 16px 16px 58px;margin-bottom:14px}
+.step:not(:last-child)::after{content:"";position:absolute;left:30px;bottom:-15px;width:2px;height:14px;background:var(--line)}
+.num{position:absolute;left:14px;top:14px;width:32px;height:32px;border-radius:50%;background:var(--teal);color:#fff;font-weight:700;display:grid;place-items:center}
+.step h2{font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--teal);margin:2px 0 5px}.step p{margin:0 0 6px}
+.pill{display:inline-block;background:var(--tealbg);color:var(--teal);font-weight:600;border-radius:8px;padding:2px 8px;font-size:14px}
+details{border-radius:14px;margin:9px 0 0;overflow:hidden}
+summary{list-style:none;cursor:pointer;padding:12px 14px;font-weight:650;display:flex;gap:10px;min-height:48px;align-items:center}
+summary::-webkit-details-marker{display:none}summary::after{content:"+";margin-left:auto;font-size:22px;color:var(--mute)}details[open] summary::after{content:"–"}
+details>div{padding:0 14px 14px;font-size:15px}
+.d-red{background:var(--redbg)}.d-red summary{color:var(--red)}.d-amb{background:var(--ambbg)}.d-amb summary{color:var(--amb)}.d-grn{background:var(--grnbg)}.d-grn summary{color:var(--grn)}
+.tabs{display:grid;gap:6px;margin:8px 0 10px}.tabs.c4{grid-template-columns:repeat(4,1fr)}.tabs.c3{grid-template-columns:repeat(3,1fr)}
+.tabs button{font:inherit;font-size:13px;font-weight:700;border:2px solid transparent;border-radius:12px;padding:9px 2px;min-height:48px;color:#fff;cursor:pointer;line-height:1.15}
+.tabs small{display:block;font-weight:500;font-size:10.5px}
+.t0{background:#6f8a94}.t1{background:#2e7d4f}.t2{background:#a96a0c}.t3{background:#b3261e}.tn{background:#12355b}
+.tabs button[aria-selected="true"]{border-color:var(--ink);transform:translateY(-1px)}
+.panel{display:none;border-radius:14px;padding:12px 14px;font-size:15px}.panel.on{display:block}
+ul{margin:6px 0 0;padding-left:18px}li{margin:3px 0}
+.p0{background:var(--tealbg)}.p1{background:var(--grnbg)}.p2{background:var(--ambbg)}.p3{background:var(--redbg)}
+.panel b.h{display:block;margin-bottom:2px}
+.card{border-radius:18px;padding:16px;margin-bottom:14px}.card h3{margin:0 0 4px;font-size:16px}
+.c-teal{background:var(--tealbg)}.c-teal h3{color:var(--teal)}.c-red{background:var(--redbg)}.c-red h3{color:var(--red)}
+.refs{font-size:12.5px;color:var(--mute);margin-top:6px}.refs ol{padding-left:18px;margin:6px 0}
+.foot{font-size:12px;color:var(--mute);border-top:1px solid var(--line);padding-top:12px;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<button class="theme" id="th" aria-label="Toggle dark mode">Dark / Light</button>
+<span class="tag">For healthcare professionals</span>
+<h1>Key Psychiatric Disorders</h1>
+<p>Quick primary-care algorithms for depression, anxiety and psychosis. Pick a condition, then follow the steps.</p>
+<div class="alert">⚠️ In every condition: <b>ask directly about suicide and self-harm</b>. Asking does not increase risk.</div>
+</header>
+<nav class="nav" id="nav">
+<button aria-selected="true" data-d="dep">Depression</button>
+<button aria-selected="false" data-d="anx">Anxiety</button>
+<button aria-selected="false" data-d="psy">Psychosis</button>
+</nav>
+
+<!-- DEPRESSION -->
+<section class="dis on" id="dep">
+<div class="step"><span class="num">1</span><h2>Suspect</h2>
+<p>Low mood or loss of interest for <b>2 weeks or more</b>, plus fatigue, sleep or appetite change, poor concentration, guilt or hopelessness.</p>
+<p>Also think of it with <b>unexplained physical symptoms</b>: pain, palpitations, headache.</p></div>
+<div class="step"><span class="num">2</span><h2>Screen</h2>
+<p><span class="pill">PHQ-2 ≥ 3</span> is positive, so complete the <span class="pill">PHQ-9</span>. Record the total and <b>item 9</b>.</p></div>
+<div class="step"><span class="num">3</span><h2>Assess and exclude</h2>
+<details class="d-red" open><summary>⚠️ Suicide / self-harm risk</summary><div>Ask at every visit. <b>Imminent risk:</b> stay with the patient, remove means, arrange urgent specialist care.</div></details>
+<details class="d-amb"><summary>Rule out other diagnoses</summary><div>Past <b>mania or hypomania</b> (bipolar), <b>psychosis</b>, bereavement, anxiety disorder, dementia in older adults.</div></details>
+<details class="d-grn"><summary>Medical and substance causes</summary><div>Thyroid disease, anaemia, B12 deficiency, chronic illness, alcohol or drug use, medicines such as steroids. Test as indicated.</div></details></div>
+<div class="step"><span class="num">4</span><h2>Grade severity and manage</h2>
+<p>Tap the PHQ-9 total score band:</p>
+<div class="tabs c4" data-g="dep">
+<button class="t0" aria-selected="false" data-p="dp0">0–4<small>Minimal</small></button>
+<button class="t1" aria-selected="false" data-p="dp1">5–9<small>Mild</small></button>
+<button class="t2" aria-selected="true" data-p="dp2">10–14<small>Moderate</small></button>
+<button class="t3" aria-selected="false" data-p="dp3">15+<small>Severe</small></button></div>
+<div class="panel p0" data-g="dep" id="dp0"><b class="h">Minimal (0–4)</b><ul><li>No treatment needed</li><li>Reassure and advise to return if symptoms persist or worsen</li></ul></div>
+<div class="panel p1" data-g="dep" id="dp1"><b class="h">Mild (5–9)</b><ul><li>Psychoeducation: depression is common and treatable</li><li>Behavioural activation, regular activity, exercise</li><li>Sleep routine, reduce alcohol</li><li>Problem-solving support</li><li><b>Review in 2–4 weeks</b></li><li>Antidepressants are not routine first-line</li></ul></div>
+<div class="panel p2 on" data-g="dep" id="dp2"><b class="h">Moderate (10–14)</b><ul><li>Psychological therapy: behavioural activation, CBT, interpersonal therapy or problem-solving</li><li><b>and/or</b> an antidepressant (an SSRI such as fluoxetine is a usual first choice)</li><li>Review 1–2 weeks after starting for side effects and suicidal thoughts</li><li>Reassess at 4–6 weeks</li></ul></div>
+<div class="panel p3" data-g="dep" id="dp3"><b class="h">Moderately severe to severe (15+)</b><ul><li><b>Antidepressant plus psychological therapy</b></li><li>Seek specialist input early</li><li>Weekly follow-up at first</li><li>Check suicide risk at every visit</li><li>Involve family or carers with consent</li></ul></div></div>
+<div class="card c-teal"><h3>💊 Antidepressant practice points</h3><ul>
+<li>Full effect takes <b>about 4–6 weeks</b>. Counsel that benefit is delayed.</li>
+<li>Extra vigilance for suicidal thoughts in <b>under-25s</b> in the first weeks.</li>
+<li><b>Avoid benzodiazepines</b> as treatment for depression. Prefer agents safer than TCAs where overdose is a concern.</li>
+<li>After remission, continue for several months (commonly 6–12), then <b>taper gradually</b>.</li></ul></div>
+<div class="card c-red"><h3>🚩 Refer when</h3><ul><li>Psychotic features or suspected bipolar disorder</li><li>High or imminent suicide risk</li><li>No response after an adequate trial (about 6–8 weeks, or two agents)</li><li>Pregnancy or breastfeeding, adolescents, or complex older-adult cases</li></ul></div>
+<div class="refs"><b>References</b><ol>
+<li>WHO. mhGAP Intervention Guide for mental, neurological and substance use disorders in non-specialized health settings, Version 2.0. Geneva; 2016.</li>
+<li>Kroenke K, Spitzer RL, Williams JBW. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001;16(9):606–613.</li>
+<li>NICE. Depression in adults: treatment and management (NG222). 2022.</li>
+<li>Cipriani A, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder. Lancet. 2018;391(10128):1357–1366.</li></ol></div>
+</section>
+
+<!-- ANXIETY -->
+<section class="dis" id="anx">
+<div class="step"><span class="num">1</span><h2>Suspect</h2>
+<p><b>Excessive, hard-to-control worry</b> on most days for months, with restlessness, fatigue, poor concentration, irritability, muscle tension or poor sleep.</p>
+<p>Often presents as <b>physical symptoms</b>: palpitations, headache, chest tightness, stomach upset, dizziness. Ask about panic attacks.</p></div>
+<div class="step"><span class="num">2</span><h2>Screen</h2>
+<p><span class="pill">GAD-2 ≥ 3</span> is positive, so complete the <span class="pill">GAD-7</span>. A score of <b>10 or more</b> suggests probable generalised anxiety disorder and needs clinical assessment.</p>
+<p>Also screen for depression with the PHQ-9, as the two often co-occur.</p></div>
+<div class="step"><span class="num">3</span><h2>Assess and exclude</h2>
+<details class="d-red" open><summary>⚠️ Suicide / self-harm risk</summary><div>Ask directly. Anxiety with depression, substance use or insomnia raises risk.</div></details>
+<details class="d-amb"><summary>Other anxiety-related disorders</summary><div>Panic disorder, social anxiety, <b>PTSD</b>, OCD, depression, bipolar disorder. Ask about trauma and about compulsions.</div></details>
+<details class="d-grn"><summary>Medical, drug and substance causes</summary><div><b>Medical:</b> hyperthyroidism, arrhythmia, anaemia, hypoglycaemia, asthma or COPD.<br><b>Substances and drugs:</b> caffeine, alcohol or sedative withdrawal, stimulants, cannabis, salbutamol, steroids, excess thyroxine.</div></details></div>
+<div class="step"><span class="num">4</span><h2>Grade severity and manage</h2>
+<p>Tap the GAD-7 total score band:</p>
+<div class="tabs c4" data-g="anx">
+<button class="t0" aria-selected="false" data-p="ap0">0–4<small>Minimal</small></button>
+<button class="t1" aria-selected="false" data-p="ap1">5–9<small>Mild</small></button>
+<button class="t2" aria-selected="true" data-p="ap2">10–14<small>Moderate</small></button>
+<button class="t3" aria-selected="false" data-p="ap3">15+<small>Severe</small></button></div>
+<div class="panel p0" data-g="anx" id="ap0"><b class="h">Minimal (0–4)</b><ul><li>No treatment needed</li><li>Reassure and advise to return if worry persists or worsens</li></ul></div>
+<div class="panel p1" data-g="anx" id="ap1"><b class="h">Mild (5–9)</b><ul><li>Explain anxiety and its physical symptoms</li><li>Cut down caffeine, alcohol and nicotine</li><li>Regular exercise, sleep routine, slow breathing and relaxation</li><li>Guided self-help where available</li><li><b>Review in 2–4 weeks</b></li></ul></div>
+<div class="panel p2 on" data-g="anx" id="ap2"><b class="h">Moderate (10–14)</b><ul><li><b>CBT or other structured psychological therapy</b></li><li><b>and/or</b> an SSRI (such as sertraline or escitalopram), or an SNRI (such as duloxetine or venlafaxine)</li><li>Warn that symptoms can briefly worsen early on</li><li>Review at 2–4 weeks, then judge response over 8–12 weeks</li></ul></div>
+<div class="panel p3" data-g="anx" id="ap3"><b class="h">Severe (15+)</b><ul><li><b>Psychological therapy plus SSRI or SNRI</b></li><li>Seek specialist input early</li><li>Treat co-existing depression</li><li>Frequent follow-up; check suicide risk</li></ul></div></div>
+<div class="card c-teal"><h3>💊 Medication practice points</h3><ul>
+<li><b>Avoid benzodiazepines</b> for routine treatment. If used in a crisis, keep to the shortest course (about 2–4 weeks).</li>
+<li>Start low and go slow with SSRIs and SNRIs. <b>Taper gradually</b> to avoid discontinuation symptoms.</li>
+<li>If an SSRI or SNRI is not tolerated, pregabalin is an option in some guidelines. Weigh misuse and dependence risk.</li>
+<li>Continue for about 6–12 months after a good response.</li></ul></div>
+<div class="card c-red"><h3>🚩 Refer when</h3><ul><li>No response after two different interventions</li><li>Severe impairment or high suicide risk</li><li>Comorbid substance dependence, psychosis or bipolar disorder</li><li>Suspected PTSD or OCD needing specialist therapy</li><li>Pregnancy or diagnostic uncertainty</li></ul></div>
+<div class="refs"><b>References</b><ol>
+<li>NICE. Generalised anxiety disorder and panic disorder in adults: management (CG113). 2011, updated 2020.</li>
+<li>Spitzer RL, Kroenke K, Williams JBW, Löwe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. 2006;166(10):1092–1097.</li>
+<li>Kroenke K, Spitzer RL, Williams JBW, Monahan PO, Löwe B. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med. 2007;146(5):317–325.</li>
+<li>Bandelow B, Michaelis S, Wedekind D. Treatment of anxiety disorders. Dialogues Clin Neurosci. 2017;19(2):93–107.</li>
+<li>American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, 5th ed., text revision (DSM-5-TR). 2022.</li></ol></div>
+</section>
+
+<!-- PSYCHOSIS -->
+<section class="dis" id="psy">
+<div class="step"><span class="num">1</span><h2>Suspect</h2>
+<p><b>Hallucinations</b> (often voices), <b>delusions</b>, disorganised speech or behaviour, marked withdrawal, self-neglect, odd or agitated behaviour. Onset is commonly in the late teens to thirties.</p></div>
+<div class="step"><span class="num">2</span><h2>Assess</h2>
+<p>There is no brief screening scale. Use a <b>clinical interview and mental state examination</b>. Ask about onset (acute or gradual), duration, substance use, family history and recent stressors.</p>
+<details class="d-red" open><summary>⚠️ Risk assessment</summary><div>Suicide and self-harm, <b>harm to others</b>, self-neglect, vulnerability and exploitation. Speak to family or carers if the patient has little insight.</div></details></div>
+<div class="step"><span class="num">3</span><h2>Exclude other causes</h2>
+<details class="d-red"><summary>🚨 Emergencies</summary><div><b>Delirium</b> (fluctuating consciousness, acute onset, fever, infection), <b>postpartum psychosis</b>, catatonia, and neuroleptic malignant syndrome (fever, rigidity, altered consciousness) need urgent hospital care.</div></details>
+<details class="d-amb"><summary>Substance, drug and mood causes</summary><div>Cannabis, stimulants, alcohol withdrawal, steroids, levodopa. <b>Mania</b> or severe depression with psychotic features.</div></details>
+<details class="d-grn"><summary>Medical and neurological causes</summary><div>Epilepsy, brain lesion, HIV, neurosyphilis, thyroid disease, B12 deficiency, metabolic disturbance, autoimmune encephalitis. Consider blood count, electrolytes, glucose, kidney, liver and thyroid tests, urine drug screen, HIV and syphilis serology, and brain imaging if there are focal signs or atypical features.</div></details></div>
+<div class="step"><span class="num">4</span><h2>Manage</h2>
+<p>Tap the situation:</p>
+<div class="tabs c3" data-g="psy">
+<button class="tn" aria-selected="true" data-p="sp0">Acute<small>Agitated</small></button>
+<button class="tn" aria-selected="false" data-p="sp1">First<small>Episode</small></button>
+<button class="tn" aria-selected="false" data-p="sp2">Ongoing<small>Care</small></button></div>
+<div class="panel p3 on" data-g="psy" id="sp0"><b class="h">Acute or agitated</b><ul><li><b>Safety first:</b> calm, low-stimulation space, adequate staff</li><li>Verbal de-escalation. Do not argue with delusions</li><li>Treat any reversible cause (intoxication, withdrawal, delirium)</li><li>If medication is needed, <b>prefer oral</b>: a short-acting benzodiazepine or an antipsychotic, per local protocol</li><li>Monitor sedation, breathing, blood pressure and ECG where possible</li></ul></div>
+<div class="panel p2" data-g="psy" id="sp1"><b class="h">First episode</b><ul><li><b>Refer to specialist services</b> where available. Where not, start treatment as in mhGAP</li><li>Baseline: weight, BMI, waist, blood pressure, glucose, lipids, ECG if risk factors</li><li><b>One antipsychotic</b>, low starting dose, titrated, chosen by shared decision</li><li>Adequate trial: about 4–6 weeks at an effective dose</li><li>Psychoeducation and family involvement from the start</li><li>Advise avoiding cannabis and alcohol</li></ul></div>
+<div class="panel p1" data-g="psy" id="sp2"><b class="h">Ongoing care</b><ul><li>Review adherence, side effects (movement disorders, sedation, weight gain), early relapse signs</li><li>Monitor weight, glucose and lipids at least yearly, and treat physical health</li><li>Psychosocial support: family, housing, work, rehabilitation</li><li>Continue treatment <b>at least 1–2 years</b> after a first episode. Never stop abruptly</li><li>No response to two adequate trials: refer for <b>clozapine</b> assessment</li></ul></div></div>
+<div class="card c-red"><h3>🚩 Refer when</h3><ul><li>Any first episode, where psychiatric services exist</li><li>Risk to self or others, or unable to care for self</li><li>Poor response or intolerable side effects</li><li>Co-existing substance dependence</li><li>Pregnancy, adolescents or older adults</li></ul></div>
+<div class="refs"><b>References</b><ol>
+<li>WHO. mhGAP Intervention Guide, Version 2.0 (Psychoses module). Geneva; 2016.</li>
+<li>NICE. Psychosis and schizophrenia in adults: prevention and management (CG178). 2014.</li>
+<li>Keepers GA, et al. The American Psychiatric Association Practice Guideline for the Treatment of Patients With Schizophrenia. Am J Psychiatry. 2020;177(9):868–872.</li>
+<li>Huhn M, et al. Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet. 2019;394(10202):939–951.</li></ol></div>
+</section>
+
+<div class="foot">For educational use by healthcare professionals. Not a substitute for clinical judgement or national guidelines. Verify drug choices and doses against local formularies and product information.<br><br><b>Shared by Aurobindo Pharma on World Mental Health Day 2026.</b> No product promotion.</div>
+</div>
+<script>
+function $(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))}
+$('#nav button').forEach(function(b){b.addEventListener('click',function(){
+$('#nav button').forEach(function(x){x.setAttribute('aria-selected','false')});b.setAttribute('aria-selected','true');
+$('.dis').forEach(function(s){s.classList.remove('on')});document.getElementById(b.dataset.d).classList.add('on');
+window.scrollTo({top:0,behavior:'smooth'});});});
+$('.tabs button').forEach(function(b){b.addEventListener('click',function(){
+var g=b.parentNode.dataset.g;
+$('button',b.parentNode).forEach(function(x){x.setAttribute('aria-selected','false')});b.setAttribute('aria-selected','true');
+$('.panel[data-g="'+g+'"]').forEach(function(p){p.classList.remove('on')});document.getElementById(b.dataset.p).classList.add('on');});});
+document.getElementById('th').addEventListener('click',function(){
+var r=document.documentElement,d=window.matchMedia('(prefers-color-scheme: dark)').matches;
+var cur=r.getAttribute('data-theme')||(d?'dark':'light');r.setAttribute('data-theme',cur==='dark'?'light':'dark');});
+</script>
+</body>
+</html>
